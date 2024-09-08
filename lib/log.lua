@@ -1,4 +1,4 @@
---[[pod_format="raw",created="2024-09-08 16:18:39",modified="2024-09-08 16:18:39",revision=0]]
+--[[pod_format="raw",created="2024-09-08 16:18:39",modified="2024-09-08 22:44:14",revision=1]]
 --[[
 	log.lua - logging and tracing
 	(c) 2024 Andrew Vasilyev. All rights reserved.

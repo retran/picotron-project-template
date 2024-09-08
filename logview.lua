@@ -1,4 +1,4 @@
---[[pod_format="raw",created="2024-09-08 09:51:03",modified="2024-09-08 16:18:48",revision=2]]
+--[[pod_format="raw",created="2024-09-08 09:51:03",modified="2024-09-08 22:43:43",revision=3]]
 --[[
 	logview.lua - log viewer utility
 	(c) 2024 Andrew Vasilyev. All rights reserved.

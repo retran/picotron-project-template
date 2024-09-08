@@ -1,4 +1,4 @@
---[[pod_format="raw",created="2024-09-08 16:10:59",modified="2024-09-08 16:18:24",revision=2]]
+--[[pod_format="raw",created="2024-09-08 16:10:59",modified="2024-09-08 22:43:56",revision=3]]
 --[[
 	run_tests.lua - Program entry point for test execution
 	(c) 2024 Andrew Vasilyev. All rights reserved.

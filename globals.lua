@@ -1,4 +1,4 @@
---[[pod_format="raw",created="2024-09-08 09:49:37",modified="2024-09-08 16:18:10",revision=2]]
+--[[pod_format="raw",created="2024-09-08 09:49:37",modified="2024-09-08 22:43:38",revision=3]]
 --[[
 	globals.lua - global utility functions
 	(c) 2024 Andrew Vasilyev. All rights reserved.

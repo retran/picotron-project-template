@@ -1,4 +1,4 @@
---[[pod_format="raw",created="2024-09-08 16:18:29",modified="2024-09-08 16:18:29",revision=0]]
+--[[pod_format="raw",created="2024-09-08 16:18:29",modified="2024-09-08 22:44:01",revision=1]]
 --[[
     test_configuration.lua - configuration settings for tests
     (c) 2024 Andrew Vasilyev. All rights reserved.

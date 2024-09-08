@@ -1,4 +1,4 @@
---[[pod_format="raw",created="2024-09-08 09:49:19",modified="2024-09-08 16:18:05",revision=2]]
+--[[pod_format="raw",created="2024-09-08 09:49:19",modified="2024-09-08 22:43:24",revision=3]]
 --[[
 	configuration.lua - configuration settings for the program
 	(c) 2024 Andrew Vasilyev. All rights reserved.

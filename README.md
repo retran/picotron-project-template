@@ -26,6 +26,10 @@ This template serves as a foundation for developing games using the Picotron fan
     - [Error Handling in Assertions](#error-handling-in-assertions)
 - [License](#license)
 - [Additional Resources](#additional-resources)
+- [Contributing](#contributing)
+    - [How to Contribute](#how-to-contribute)
+    - [Contribution Guidelines](#contribution-guidelines)
+    - [Reporting Issues](#reporting-issues)
 
 ## Introduction
 
@@ -421,12 +425,68 @@ Example error message for a failed `are_equal` assertion:
 Assertion failed: expected '100', got '90'
 ```
 
+## Contributing
+
+We welcome contributions to the Picotron Game Template! Whether you want to improve existing features, add new ones, or fix bugs, your help is greatly appreciated. To contribute, please follow these steps:
+
+### How to Contribute
+
+1. **Fork the Repository**:
+    Fork this repository to your GitHub account by clicking the "Fork" button at the top of the page.
+
+2. **Clone Your Fork**:
+    Clone the forked repository to your local machine:
+    
+    ```bash
+    git clone https://github.com/yourusername/picotron-game-template.git
+    ```
+
+3. **Create a New Branch**:
+    Create a new branch for your feature or bug fix:
+    
+    ```bash
+    git checkout -b my-new-feature
+    ```
+
+4. **Make Your Changes**:
+    Implement your feature, bug fix, or improvement. Be sure to write clear, concise, and well-documented code. Ensure that your changes do not break existing functionality by running the unit tests.
+
+5. **Test Your Changes**:
+    Before submitting your changes, run all tests to ensure that everything is working as expected:
+    
+    ```bash
+    run_tests.lua
+    ```
+
+6. **Commit and Push**:
+    Once you're satisfied with your changes, commit your work with a descriptive message and push it to your fork:
+    
+    ```bash
+    git add .
+    git commit -m "Add my feature or fix a bug"
+    git push origin my-new-feature
+    ```
+
+7. **Submit a Pull Request**:
+    Open a pull request from your fork back to the main repository. Provide a clear explanation of your changes and why they should be merged.
+
+### Contribution Guidelines
+
+- **Follow the Existing Code Style**: Ensure that your code matches the style and conventions used in the rest of the project.
+- **Write Tests**: If applicable, add unit tests for new features or bug fixes.
+- **Keep It Modular**: Ensure your changes are well-structured and maintainable, adhering to the modular nature of the project.
+- **Document Your Changes**: Update relevant sections of the README and add comments to the code where necessary to help others understand your contribution.
+
+### Reporting Issues
+
+If you find a bug or have suggestions for improvements, feel free to open an issue on GitHub. Please provide detailed information to help us understand the issue or your proposal.
+
+We look forward to your contributions!
+
 ## License
 
 This project is licensed under the GNU General Public License v3.0. See the `LICENSE` file for more details.
 
 ## Additional Resources
 
-- [Picotron Manual](https://www.lexaloffle.com/dl/docs/picotron_manual.html): Official documentation for the Picotron environment.
-
-Feel free to contribute or extend this template for your game development projects!
+- [Picotron Manual](https://www.lexaloffle.com/dl/docs/picotron_manual.html)

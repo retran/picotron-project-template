@@ -1,7 +1,7 @@
---[[pod_format="raw",created="2024-09-08 16:10:59",modified="2024-09-08 22:43:56",revision=3]]
+--[[pod_format="raw",created="2024-09-08 16:10:59",modified="2025-03-07 13:16:21",revision=5]]
 --[[
 	run_tests.lua - Program entry point for test execution
-	(c) 2024 Andrew Vasilyev. All rights reserved.
+	(c) 2025 Andrew Vasilyev. All rights reserved.
 
 	This program is free software: you can redistribute it and/or modify
 	it under the terms of the GNU General Public License as published by

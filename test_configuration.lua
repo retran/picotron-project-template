@@ -1,7 +1,7 @@
---[[pod_format="raw",created="2024-09-08 16:18:29",modified="2024-09-08 22:44:01",revision=1]]
+--[[pod_format="raw",created="2024-09-08 16:18:29",modified="2025-03-07 13:16:15",revision=3]]
 --[[
     test_configuration.lua - configuration settings for tests
-    (c) 2024 Andrew Vasilyev. All rights reserved.
+    (c) 2025 Andrew Vasilyev. All rights reserved.
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by

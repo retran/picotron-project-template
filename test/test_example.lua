@@ -1,6 +1,6 @@
---[[pod_format="raw",created="2024-09-08 09:49:19",modified="2025-03-07 13:16:06",revision=6]]
+--[[pod_format="raw",created="2025-03-07 13:17:59",modified="2025-03-07 13:18:32",revision=1]]
 --[[
-	configuration.lua - configuration settings for the program
+	logview.lua - log viewer utility
 	(c) 2025 Andrew Vasilyev. All rights reserved.
 
 	This program is free software: you can redistribute it and/or modify
@@ -17,14 +17,27 @@
 	along with this program. If not, see <https://www.gnu.org/licenses/>.
 ]]
 
+local assert = require("assert")
 local log = require("log")
 
-configuration = {
-	-- If true, logging will be initialized and messages will be sent to the "logview" process
-	log = {
-		-- If true, logging will be enabled
-		enabled = true,
-		-- The logging level to use
-		level = log.levels.DEBUG
-	}
-}
+local fixture = { }
+
+function fixture.before_all()
+end
+
+function fixture.before_each()
+end
+
+function fixture.test_something()
+end
+
+function fixture.test_something2()
+end
+
+function fixture.after_each()
+end
+
+function fixture.after_all()
+end
+
+return fixture

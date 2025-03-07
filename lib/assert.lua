@@ -1,7 +1,7 @@
---[[pod_format="raw",created="2024-09-08 16:18:35",modified="2024-09-08 22:44:10",revision=1]]
+--[[pod_format="raw",created="2024-09-08 16:18:35",modified="2025-03-07 13:17:35",revision=2]]
 --[[
 	assert.lua - Custom assertion library for Lua
-	(c) 2024 Andrew Vasilyev. All rights reserved.
+	(c) 2025 Andrew Vasilyev. All rights reserved.
 
 	This program is free software: you can redistribute it and/or modify
 	it under the terms of the GNU General Public License as published by
@@ -79,8 +79,7 @@ end
 -- Asserts that two values are equal
 function assert.are_equal(actual, expected, message)
 	if actual ~= expected then
-		error(
-		message or string.format("Assertion failed: expected '%s', got '%s'", tostring(expected), tostring(actual)), 2)
+		error(message or string.format("Assertion failed: expected '%s', got '%s'", tostring(expected), tostring(actual)), 2)
 	end
 end
 
@@ -94,9 +93,7 @@ end
 -- Asserts that two values are not equal
 function assert.are_not_equal(actual, expected, message)
 	if actual == expected then
-		error(
-		message or
-		string.format("Assertion failed: expected values to be different, but both are '%s'", tostring(actual)), 2)
+		error(message or string.format("Assertion failed: expected values to be different, but both are '%s'", tostring(actual)), 2)
 	end
 end
 

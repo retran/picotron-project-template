@@ -1,7 +1,7 @@
---[[pod_format="raw",created="2024-09-08 09:51:03",modified="2024-09-08 22:43:43",revision=3]]
+--[[pod_format="raw",created="2024-09-08 09:51:03",modified="2025-03-07 13:16:38",revision=5]]
 --[[
 	logview.lua - log viewer utility
-	(c) 2024 Andrew Vasilyev. All rights reserved.
+	(c) 2025 Andrew Vasilyev. All rights reserved.
 
 	This program is free software: you can redistribute it and/or modify
 	it under the terms of the GNU General Public License as published by

@@ -1,7 +1,7 @@
---[[pod_format="raw",created="2024-09-08 09:50:21",modified="2024-09-08 22:43:52",revision=6]]
+--[[pod_format="raw",created="2024-09-08 09:50:21",modified="2025-03-07 13:16:28",revision=8]]
 --[[
 	require.lua - Lua 5.4-compatible "require"
-	(c) 2024 Andrew Vasilyev. All rights reserved.
+	(c) 2025 Andrew Vasilyev. All rights reserved.
 
 	This program is free software: you can redistribute it and/or modify
 	it under the terms of the GNU General Public License as published by

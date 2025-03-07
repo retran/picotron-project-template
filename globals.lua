@@ -1,7 +1,7 @@
---[[pod_format="raw",created="2024-09-08 09:49:37",modified="2024-09-08 22:43:38",revision=3]]
+--[[pod_format="raw",created="2024-09-08 09:49:37",modified="2025-03-07 13:16:47",revision=5]]
 --[[
 	globals.lua - global utility functions
-	(c) 2024 Andrew Vasilyev. All rights reserved.
+	(c) 2025 Andrew Vasilyev. All rights reserved.
 
 	This program is free software: you can redistribute it and/or modify
 	it under the terms of the GNU General Public License as published by

@@ -1,7 +1,7 @@
---[[pod_format="raw",created="2024-09-08 09:50:07",modified="2024-09-08 22:43:47",revision=3]]
+--[[pod_format="raw",created="2024-09-08 09:50:07",modified="2025-03-07 13:16:33",revision=5]]
 --[[
 	main.lua - program entry points
-	(c) 2024 Andrew Vasilyev. All rights reserved.
+	(c) 2025 Andrew Vasilyev. All rights reserved.
 
 	This program is free software: you can redistribute it and/or modify
 	it under the terms of the GNU General Public License as published by
@@ -26,9 +26,9 @@ add_module_path("src/")
 
 local log = require("log")
 
-if configuration.logging_enabled then
+if configuration.log.enabled then
+	log.set_level(configuration.log.level)
 	log.init()
-	-- log.set_level(log.levels.TRACE)
 end
 
 -- Main initialization function
